@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!--App branding color for the app bar-->
+        <item name="colorPrimary">#E91E63</item>
+
+        <!--darker variant for the status bar and contextual app bar-->
+        <item name="colorPrimaryDark">#C2185B</item>
+
+        <!--theme UI controls like checkboxes and checkfields-->
+        <item name="colorAccent">#FF4081</item>
+
+        <!--COLOR FOR BUTTONS-->
+        <item name="colorButtonNormal">#FF4081</item>
+    </style>
+
+    <!--Code font styles header text view-->
+    <style name="HeaderTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>
